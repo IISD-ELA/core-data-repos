@@ -1,0 +1,66 @@
+############################################################
+# R FILES  
+# These are automatically created by R/RStudio and should not
+# be tracked because they are user-specific and not part of
+# the project’s actual code.
+############################################################
+.Rhistory           # R session history
+.RData              # Saved R workspace
+.Rproj.user/        # RStudio project user settings
+renv/library/       # renv package libraries (auto-generated)
+renv/staging/       # renv staging directory
+*.Rproj             # RStudio project files
+
+############################################################
+# PYTHON FILES
+# These files are created automatically by Python or by 
+# virtual environments. They should not be tracked.
+############################################################
+__pycache__/        # Python cache directory
+*.pyc               # Compiled Python bytecode
+.env/               # Python virtual environment (optionally .env)
+.venv/              # Another common virtual environment folder
+.ipynb_checkpoints/ # Jupyter notebook checkpoints
+
+############################################################
+# DATA FILES
+# In most cases, data should NOT be uploaded to GitHub.
+# These patterns ignore common data formats. However, the
+# data/example-data/ directory is allowed so small example
+# datasets can be committed.
+############################################################
+# Ignore everything in data/ and results/ by default
+data/*
+results/*
+
+# Ignore common data formats everywhere else
+*.csv
+*.csv.zip
+*.xlsx
+*.zip
+*.tar.gz
+
+# Re-allow the folders themselves so Git can check exceptions
+!data/tracked-data/
+!data/tracked-data/**
+!results/tracked-data/
+!results/tracked-data/**
+
+############################################################
+# PASSWORDS, CONFIG FILES, API KEYS, OR OTHER SECRETS
+# Sensitive files such as database credentials or API keys
+# should NEVER be tracked.
+############################################################
+*.env               # Environment variables file (e.g., for API keys)
+*.key               # Private key files
+*.pem               # SSL / certificate keys
+*.secret            # Any custom secret file extensions
+config/*.yml        # If you store sensitive settings in YAML
+config/*.json       # If config JSON contains secrets
+
+############################################################
+# GENERAL SYSTEM FILES
+# Files created by your computer that should never be tracked.
+############################################################
+.DS_Store           # macOS system file
+
