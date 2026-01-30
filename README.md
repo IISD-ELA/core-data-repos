@@ -13,21 +13,16 @@
 
 ```
 core-data-repos/
-│
 ├── data/                         # data input (file contents ignored)
 |   └── repo-pkgs-data.csv        # table of info that gets displayed
-|
 ├── docs/                         # documentation
 |   └── how-to-test.md            # for local testing of the web page
-│
-├── infra/                        # infrastructure files
-│   └── **index.html**            # the GitHub page content, in html
-│   └── **script.js**             # javascript
-│   └── **style.css**             # css styling - colours, fonts, etc.
-│
-├── README.md                     # this file (orientation to the repo and big pic info)
 ├── .gitignore                    # list of files for git to ignore
-└── LICENSE                       # usage license
+├── **index.html**                # the GitHub page content, in html
+├── LICENSE                       # usage license
+├── README.md                     # this file (orientation to the repo and big pic info)
+├── **script.js**                 # javascript
+└── **style.css**                 # css styling - colours, fonts, etc.
 
 ```
 

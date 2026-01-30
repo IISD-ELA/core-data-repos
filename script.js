@@ -6,7 +6,7 @@ function splitCSV(row) {
 }
 
 // Fetch and process CSV
-fetch("../data/core-data-repos-table.csv")
+fetch("data/core-data-repos-table.csv")
   .then(response => response.text())
   .then(csvText => {
     const rows = csvText.trim().split("\n").map(splitCSV);
