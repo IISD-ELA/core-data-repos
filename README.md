@@ -44,6 +44,8 @@ html, javascript, css:
 
 GitHub pages:
 - This is done in your browser on GitHub, under the settings of this repository
+- Look under "Pages" and "GitHub Actions" to check deployment status
+- I found this YouTube video a useful guide: [How to Use GitHub Pages (by The Common Coder)](https://www.youtube.com/watch?v=5XhxR9Vs6zc)
 
 Testing / how to see the table rendered:
 - See notes in docs/how-to-test.md
