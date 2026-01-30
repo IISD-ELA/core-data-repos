@@ -7,7 +7,8 @@
 4. [Contact](#contact)
 
 ## Purpose
-> The purpose of this repo is to serve as the source for a GitHub Pages (website) that is simply a table showing IISD-ELA datasets available on public repositories. For data users and the general public, all you really need is the resulting aesthetically rendered table. The rest of this GitHub is just behind-the-scenes content and information for internal staff to update the table.
+Access the rendered data catalog web page here: [**IISD-ELA Core Data on Repositories**](https://iisd-ela.github.io/core-data-repos/)  
+> The purpose of this repo is to serve as the source for a GitHub Pages (webpage) that is simply a table showing IISD-ELA datasets available on public repositories. For data users and the general public, all you really need is the resulting [aesthetically rendered table](https://iisd-ela.github.io/core-data-repos/). The rest of this GitHub is just behind-the-scenes content and information for internal staff to make changes (but you are welcome to take a look around if you're curious!).
 
 ## Repository Structure and Files
 
@@ -27,6 +28,10 @@ core-data-repos/
 ```
 
 ## Getting Started
+Access the rendered data catalog web page here: [**IISD-ELA Core Data on Repositories**](https://iisd-ela.github.io/core-data-repos/)  
+
+The remaining notes are for only internal staff (for editing things behind-the-scenes). But you are welcome to take a look around if you're curious!
+
 To edit the table material (e.g. add a new repo package or URL), edit the CSV file (for location, see folder structure above)
 - For hyperlinks, follow this format: label|url
 - The text in each cell should always be in quotes, to ensure proper formatting in this context (not just when there are commas in a cell)
