@@ -25,26 +25,24 @@ __pycache__/        # Python cache directory
 ############################################################
 # DATA FILES
 # In most cases, data should NOT be uploaded to GitHub.
-# These patterns ignore common data formats. However, the
-# data/example-data/ directory is allowed so small example
-# datasets can be committed.
+# But this repo is an exception so it's all commented out below.
 ############################################################
-# Ignore everything in data/ and results/ by default
-data/*
-results/*
-
-# Ignore common data formats everywhere else
-*.csv
-*.csv.zip
-*.xlsx
-*.zip
-*.tar.gz
-
-# Re-allow the folders themselves so Git can check exceptions
-!data/tracked-data/
-!data/tracked-data/**
-!results/tracked-data/
-!results/tracked-data/**
+# # Ignore everything in data/ and results/ by default
+# data/*
+# results/*
+#
+# # Ignore common data formats everywhere else
+# *.csv
+# *.csv.zip
+# *.xlsx
+# *.zip
+# *.tar.gz
+#
+# # Re-allow the folders themselves so Git can check exceptions
+# !data/tracked-data/
+# !data/tracked-data/**
+# !results/tracked-data/
+# !results/tracked-data/**
 
 ############################################################
 # PASSWORDS, CONFIG FILES, API KEYS, OR OTHER SECRETS
