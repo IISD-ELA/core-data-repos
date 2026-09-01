@@ -16,6 +16,7 @@ Access the rendered data catalog web page here: [**IISD-ELA Core Data on Reposit
 core-data-repos/
 ├── data/                         # data input (file contents ignored)
 |   └── repo-pkgs-data.csv        # table of info that gets displayed
+|   └── date-ranges.csv           # table w date ranges to display
 ├── docs/                         # documentation
 |   └── how-to-test.md            # for local testing of the web page
 ├── .gitignore                    # list of files for git to ignore
